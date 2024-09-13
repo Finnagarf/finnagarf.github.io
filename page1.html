@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page 1</title>
+</head>
+
+<body>
+  <h1>This is Page 1 of my unit 2 project</h1>
+  <p>Here is super cool square</p>
+
+  <svg width="200" height="200">
+    <!-- Adding id attribute to the rectangle -->
+    <rect id="rect" x="30" y="30" height="110" width="110" style="stroke:black;fill:red">
+      <!-- Rotation animation -->
+      <animateTransform id="rotation_animation" attributeName="transform" begin="0s" dur="10s" type="rotate"
+        from="0 85 85" to="360 85 85" repeatCount="indefinite" />
+    </rect>
+  </svg>
+
+  <!-- Button to change the color -->
+  <input type="button" value="Change Color" onclick="change_color()" />
+  <input type="button" value="Change speed" onclick="change_speed()" />
+
+  <script>
+    function change_color() {
+      const random_color = '#' + Math.floor(Math.random() * 16777215).toString(16);
+
+      document.getElementById("rect").style.fill = random_color;
+    }
+  </script>
+
+  <!-- Button to change the speed -->
+  <script>
+    function change_speed() {
+      // Get the animation element
+      const animation = document.getElementById("rotation_animation");
+      // Generate a new random duration between 5s and 15s
+      const new_duration = Math.floor(Math.random() * 100) + 5; // Random number between 5 and 15
+      // Update the animation duration
+      animation.setAttribute("dur", new_duration + "s");
+    }
+  </script>
+
+  <br>
+
+  <a href="main.html">Homepage</a>
+</body>
+
+</html>
