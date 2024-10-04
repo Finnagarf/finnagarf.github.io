@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Replit</title>
+  <link href="unit4hw1.css" rel="stylesheet" type="text/css" />
+  <link id="stylesheet2" href="unit4hw1style2.css" rel="stylesheet" type="text/css" disabled />
+  <script>
+    function toggleStylesheet() {  // toggle stylesheet
+      const stylesheet = document.getElementById('stylesheet2');
+      if (stylesheet.disabled) {
+        stylesheet.disabled = false;
+      } else {
+        stylesheet.disabled = true;
+      }
+    }  
+  </script>
+</head>
+
+<style>
+  p {
+    font-weight: 500;
+    font-family: 'Verdana', monospace;
+    color: #000033;
+  }
+
+  body {
+    background-color: #eaeaea;
+  }
+
+  .new {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: 'Helvetica', monospace;
+  }
+</style>
+
+<body>
+
+  <h1 style="color:MediumSeaGreen;">Levi Walker</h1>
+  <hr style="height: 2px;background: black;">
+  <p style="color:white;background-color: green;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut
+    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+  </p>
+
+  <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Nec nisl accumsan facilisis feugiat sodales felis elementum
+    massa. Elementum per facilisis accumsan tristique conubia;</p>
+
+  <p id="brown-text">Lacinia pharetra donec ante; taciti tristique est. Ullamcorper velit id quam hac amet odio,
+    nostra dignissim. Tortor imperdiet finibus lectus lectus id? Volutpat placerat pellentesque orci cras cursus justo.
+  </p>
+
+  <p>Hello</p>
+  <p class="new">Hello</p>
+
+  <button onclick="toggleStylesheet()">Toggle Stylesheet</button>
+  <br>
+
+  <a href="/index.html">Homepage</a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
