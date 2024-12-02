@@ -1,0 +1,35 @@
+body {
+    background-color: #FFF8DC;
+    color: #000099;
+    font-family: Helvetica;
+    background-image: url('/images/background-image.png'); /* Path to your image */
+    background-repeat: repeat-y; /* Repeat the image vertically (down the left side) */
+    background-position: left top; /* Align the image to the left side */
+    background-attachment: fixed; /* Keep the image fixed in place when scrolling */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif;
+    color: #333; /* Set the text color */
+}
+header {
+    background-image: url('/images/background-image2.png');
+    background-repeat: repeat-x;
+    background-position: top center;
+    height: 100px;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
+
+#new {
+    font-weight: bold;
+    font-style: italic;
+
+h1 {
+    margin-top: 50px; /* Add some space at the top */
+    text-align: center; /* Center-align the heading */
+}
+
+p {
+    text-align: center; /* Center-align the paragraph */
+    font-size: 18px; /* Set font size for the paragraph */
+}
