@@ -1,0 +1,9 @@
+#feature {
+  font-family:
+  font-size: 0.8em;
+  color: red;
+  background-color: white;
+  width: 80%;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
