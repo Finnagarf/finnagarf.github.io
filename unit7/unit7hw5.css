@@ -1,0 +1,6 @@
+#fixed_position {
+    position: fixed;
+    background-color: lightgray;
+    font-weight: bold;
+    padding: 10px;
+}

@@ -1,0 +1,5 @@
+.headline {
+  color: #007BFF; /* A nice blue for the text */
+  border-bottom: 2px dotted #007BFF; /* Dotted line in the same blue color */
+  padding-bottom: 5px; /* Some space between the text and the dotted line */
+}
