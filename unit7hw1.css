@@ -1,0 +1,7 @@
+#left-float {
+  float: left;
+  background-color: Bisque; /* Light tan color */
+  font-family: Verdana, sans-serif;
+  font-size: large;
+  padding: 20px;
+}
