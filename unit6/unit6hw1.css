@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: whitesmoke;
+    margin: 0;
+}
+
+#borderimg {
+    color:fuchsia;
+    background-color: azure;
+}
+
+.image-height {
+    height: 300px; /* Set the height of the image */
+    width: auto; /* Maintain aspect ratio */
+}
+
+body {
+    background-image: url('/images/background-image.png');
+}
+
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  list-style-image: url('/images/banana_32.webp');
+}
+
+.specialborder {
+  border: 10px solid transparent; 
+  border-image: url('/images/photo-1689809328102-cb4a9dfd576b.jpg') 30 round;
+}
