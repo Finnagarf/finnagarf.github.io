@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid black;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Favorite Recipe</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Ingredient Name</th>
+                <th>Amount</th>
+                <th>Picture</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>macaroni pasta</td>
+                <td>6 ounces</td>
+                <td><img src="/images/macaroni.jpeg" alt="macaroni"></td>
+            </tr>
+            <tr>
+                <td>Cheddar Cheese</td>
+                <td>3 ounces</td>
+                <td><img src="/images/cheddar.webp" alt="Cheddar"></td>
+            </tr>
+            <tr>
+                <td>Mozzarella Cheese</td>
+                <td>2 ounces</td>
+                <td><img src="/images/mozzarella.jpg" alt="mozzarella"></td>
+            </tr>
+            <tr>
+                <td>Gouda Cheese</td>
+                <td>1 ounce</td>
+                <td><img src="/images/gouda.webp" alt="gouda"></td>
+            </tr>
+            <tr>
+                <td>Butter</td>
+                <td>6 tablespoons</td>
+                <td><img src="/images/butter.jpg" alt="Butter"></td>
+            </tr>
+            <tr colspan="3">
+                <td colspan="3">
+                    <h3>Instructions:</h3>
+                    <p>Boil Macaroni until soft, strain water and lower heat of the stovetop, add the cheeses and butter, mix well.</p>
+                    <img src="/images/finished.jpg" alt="Finished Dish" style="width: 300px;">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <a href="unit10project.html">Back to Homepage</a>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replit</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        /* Centering tables on the page */
+        table {
+            margin: 20px auto; /* Center the table horizontally with space around it */
+            width: 80%; /* Optional: Adjust the width of the table */
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        .special {
+            width: 100%;
+        }
+
+        .special td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid white;
+        }
+
+        .special tr:nth-child(even) {
+            background-color: #CCCCCC;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th colspan="2">My Favorite World Events</th>
+        </tr>
+        <tr>
+            <td>The Internet is made public</td>
+            <td>April 30, 1993</td>
+        </tr>
+        <tr>
+            <td>Ronald Reagan dies</td>
+            <td>June 5, 2004</td>
+        </tr>
+        <tr>
+            <td>The 13th Amendment of the US constitution is ratified</td>
+            <td>December 6, 1865</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Course Number</th>
+                <th>Course Name</th>
+                <th>Instructor Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CIS122</td>
+                <td>Introduction to Computer Programming</td>
+                <td>Mr. James Munger</td>
+            </tr>
+            <tr>
+                <td>CIS152</td>
+                <td>Introduction to Web Development</td>
+                <td>Mr. James Munger</td>
+            </tr>
+            <tr>
+                <td>ENG101</td>
+                <td>Composition I</td>
+                <td>Mrs. Laura Koritz</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table class="special">
+        <tr>
+            <td>The Elder Scrolls V: Skyrim</td>
+            <td>The Dragonborn must stop Alduin-a legendary dragon-from devouring the world.</td>
+        </tr>
+        <tr>
+            <td>Fallout: New Vegas</td>
+            <td>A courier delivering a mysterious platinum poker chip is shot and has his package stolen.</td>
+        </tr>
+        <tr>
+            <td>Factorio</td>
+            <td>A space engineer crash-lands on an alien planet. He must use the raw resources of the planet to build a factory to construct a new spaceship.</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
